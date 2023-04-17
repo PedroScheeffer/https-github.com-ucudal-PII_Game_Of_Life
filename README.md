@@ -19,6 +19,9 @@ En cada iteración del tiempo (generación) una célula estará viva o muerta se
 * Una célula viva con más de 3 vecinos vivos muere, por sobrepoblación.
 * Una célula muerta con exactamente 3 vecinos vivos se convierte en una célula viva, por reproducción
 
+Tarjeta CRC del Program
+![Untitled-2023-04-10-1915](https://user-images.githubusercontent.com/127800652/232556306-b171264d-3416-463b-a528-85193bc6f6bc.svg)
+
 ## Parte 1
 Como tributo a Conway ¡hoy vamos a crear este juego en consola! Para ello te vamos a proveer de varios code [snippets](https://en.wikipedia.org/wiki/Snippet_(programming)) y será tu trabajo asignarlos a la clase correcta cumpliendo con Expert y SRP.
 
