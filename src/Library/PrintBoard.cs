@@ -9,10 +9,11 @@ namespace PII_Game_Of_Life
         bool[,] b;//variable que representa el tablero
         int width; //variabe que representa el ancho del tablero
         int height; //variabe que representa altura del tablero
-        public void imprimir(bool[,] board){
-            this.b = board;
-            this.width = board.GetLength(0);
-            this.height = board.GetLength(1);
+        public void imprimir(Game gameState){
+            Thread.Sleep(300);
+            this.b = gameState.gameBoard;
+            this.width = b.GetLength(0);
+            this.height = b.GetLength(1);
             Console.Clear();
             StringBuilder s = new StringBuilder();
             for (int y = 0; y<height;y++)
@@ -34,8 +35,6 @@ namespace PII_Game_Of_Life
             //=================================================
             //Invocar método para calcular siguiente generación
             //=================================================
-            Thread.Sleep(300);
-            
         }
     }
 }

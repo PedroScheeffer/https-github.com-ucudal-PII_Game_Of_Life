@@ -12,7 +12,7 @@ namespace PII_Game_Of_Life
             while (true)
             {
                 newGame.refreshBoard();
-                newPrinter.imprimir(newGame.gameBoard);
+                newPrinter.imprimir(newGame);
             }
         }
     }
